@@ -9,10 +9,10 @@ This Streamlit-based application allows users to summarize content from YouTube 
 * Document Processing: Uses loaders for YouTube and website content, followed by text splitting and summarization.
 
 ## Methodology:
-Input Handling: Users input their Groq API key and a URL (either YouTube or a website).
-Data Loading: Depending on the URL type, either YoutubeLoader or UnstructuredURLLoader is used.
-Text Splitting: Documents are split into smaller chunks for summarization using RecursiveCharacterTextSplitter.
-Summarization: The LangChain framework, specifically the map_reduce chain, is employed to generate a comprehensive summary from the split chunks.
+* Input Handling: Users input their Groq API key and a URL (either YouTube or a website).
+* Data Loading: Depending on the URL type, either YoutubeLoader or UnstructuredURLLoader is used.
+* Text Splitting: Documents are split into smaller chunks for summarization using RecursiveCharacterTextSplitter.
+* Summarization: The LangChain framework, specifically the map_reduce chain, is employed to generate a comprehensive summary from the split chunks.
 
 
 I would like to state that I benefited from the codes used by Krish Naik.
