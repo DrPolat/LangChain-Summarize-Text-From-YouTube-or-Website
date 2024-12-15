@@ -3,10 +3,10 @@
 This Streamlit-based application allows users to summarize content from YouTube videos or websites using the Groq API and LangChain framework.
 
 ## Features:
-Groq API Integration: Utilizes the Groq API for large language model inference.
-Content Summarization: Provides a summarized output from both YouTube videos and websites.
-Validation & Input Handling: Includes validation for API key and URL inputs, ensuring a smooth user experience.
-Document Processing: Uses loaders for YouTube and website content, followed by text splitting and summarization.
+* Groq API Integration: Utilizes the Groq API for large language model inference.
+* Content Summarization: Provides a summarized output from both YouTube videos and websites.
+* Validation & Input Handling: Includes validation for API key and URL inputs, ensuring a smooth user experience.
+* Document Processing: Uses loaders for YouTube and website content, followed by text splitting and summarization.
 
 ## Methodology:
 Input Handling: Users input their Groq API key and a URL (either YouTube or a website).
